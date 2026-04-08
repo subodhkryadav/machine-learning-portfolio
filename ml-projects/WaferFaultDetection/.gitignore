@@ -1,0 +1,41 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.pyc
+__pycache__/
+
+# Database files
+*.db
+Training_Database/*.db
+Prediction_Database/*.db
+
+# Generated/Output files
+Training_FileFromDB/
+Prediction_FileFromDB/
+Prediction_Output_File/
+preprocessing_data/
+
+# Archived data
+TrainingArchiveBadData/
+PredictionArchivedBadData/
+
+# Validated files (generated during runtime)
+Training_Raw_files_validated/
+Prediction_Raw_Files_Validated/
+
+# Models (will be added later)
+models/
+
+# Log files (keep folder structure but ignore logs)
+*.txt
+!requirements.txt
+!runtime.txt
+
+# OS files
+.DS_Store
+Thumbs.db
